@@ -1,0 +1,84 @@
+[
+  {
+    "id": 1,
+    "question": "What is the difference between `let`, `var`, and `const`?",
+    "answers": [
+      "let is block-scoped, var is function-scoped, and const cannot be reassigned",
+      "let and const are block-scoped, var is not",
+      "var is hoisted differently than let and const"
+    ]
+  },
+  {
+    "id": 2,
+    "question": "Explain the virtual DOM in React.",
+    "answers": [
+      "The virtual DOM is a lightweight copy of the real DOM that updates efficiently.",
+      "React compares the virtual DOM with the previous version and updates only the changed parts.",
+      "Using the virtual DOM improves performance by reducing direct DOM manipulations."
+    ]
+  },
+  {
+    "id": 3,
+    "question": "What are React hooks?",
+    "answers": [
+      "React hooks are functions that let you use state and lifecycle features inside functional components.",
+      "The most common hooks are useState, useEffect, and useContext."
+    ]
+  },
+  {
+    "id": 4,
+    "question": "What is the difference between `==` and `===` in JavaScript?",
+    "answers": [
+      "`==` compares values with type coercion, while `===` compares both value and type.",
+      "`===` is a strict equality operator that does not perform type conversion."
+    ]
+  },
+  {
+    "id": 5,
+    "question": "What is the purpose of the `useEffect` hook in React?",
+    "answers": [
+      "useEffect is used for handling side effects in React functional components.",
+      "Common use cases include fetching data, updating the DOM, and subscribing to events."
+    ]
+  },
+  {
+    "id": 6,
+    "question": "Explain event delegation in JavaScript.",
+    "answers": [
+      "Event delegation is a technique where a parent element handles events for its child elements.",
+      "It improves performance by reducing the number of event listeners."
+    ]
+  },
+  {
+    "id": 7,
+    "question": "What are HTTP methods? Name at least 4.",
+    "answers": [
+      "HTTP methods define the type of request. Examples: GET, POST, PUT, DELETE.",
+      "GET is used for retrieving data, POST for sending data, PUT for updating, and DELETE for removing."
+    ]
+  },
+  {
+    "id": 8,
+    "question": "What is the difference between synchronous and asynchronous JavaScript?",
+    "answers": [
+      "Synchronous code is executed line by line, blocking execution until the previous operation completes.",
+      "Asynchronous code allows execution to continue while waiting for an operation to complete."
+    ]
+  },
+  {
+    "id": 9,
+    "question": "What is memoization?",
+    "answers": [
+      "Memoization is an optimization technique where function results are stored and reused.",
+      "It improves performance by avoiding redundant calculations."
+    ]
+  },
+  {
+    "id": 10,
+    "question": "What is a closure in JavaScript?",
+    "answers": [
+      "A closure is a function that retains access to variables from its outer scope even after the outer function has executed.",
+      "Closures allow for data encapsulation and private variables."
+    ]
+  }
+]
