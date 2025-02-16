@@ -7,14 +7,17 @@ const Frontend = () => {
     {
       id: 1,
       title: 'Junior frontend developer questions',
+      path: '/frontend/junior'
     },
     {
       id: 2,
-      title: 'Middle frontend developer questions'
+      title: 'Middle frontend developer questions',
+      path: '/frontend/middle'
     },
     {
       id: 3,
-      title: 'Senior frontend developer questions'
+      title: 'Senior frontend developer questions',
+      path: '/frontend/senior'
     }
   ]
 
@@ -25,7 +28,7 @@ const Frontend = () => {
       {levels.map((level) => (
         <div key={level.id} className="level">
           <h3>{level.title}</h3>
-          <Link to='/frontend/junior'><button className="choose-lvl-btn">Choose</button></Link>
+          <Link to={level.path}><button className="choose-lvl-btn">Choose</button></Link>
         </div>
       ))}
     </div>

@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "question": "What are WebSockets and when should they be used?",
+    "answers": [
+      "WebSockets provide full-duplex communication between client and server.",
+      "They are useful for real-time applications like chat and stock market updates."
+    ]
+  },
+  {
+    "id": 2,
+    "question": "What are microfrontends?",
+    "answers": [
+      "Microfrontends split a large frontend application into smaller, independently deployable pieces.",
+      "They help scale development by enabling teams to work on separate parts of the UI."
+    ]
+  },
+  {
+    "id": 3,
+    "question": "How does React reconcile changes in the virtual DOM?",
+    "answers": [
+      "React uses a diffing algorithm to determine what changes need to be made to the real DOM.",
+      "It updates only the necessary parts of the DOM to improve performance."
+    ]
+  }
+]

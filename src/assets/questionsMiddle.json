@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "question": "Explain the difference between REST and GraphQL.",
+    "answers": [
+      "REST is based on predefined endpoints, while GraphQL allows clients to request exactly what they need.",
+      "GraphQL reduces over-fetching and under-fetching of data compared to REST."
+    ]
+  },
+  {
+    "id": 2,
+    "question": "What is debouncing and throttling in JavaScript?",
+    "answers": [
+      "Debouncing delays a function execution until a certain time has passed without additional calls.",
+      "Throttling ensures a function is executed at most once in a given period."
+    ]
+  },
+  {
+    "id": 3,
+    "question": "What is the difference between useState and useReducer?",
+    "answers": [
+      "useState is simpler and used for managing local component state.",
+      "useReducer is preferred for complex state logic with multiple state transitions."
+    ]
+  }
+]
