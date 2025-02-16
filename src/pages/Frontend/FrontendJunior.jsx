@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import Fuse from "fuse.js"; // Библиотека для частичного сравнения
+import Fuse from "fuse.js"; 
 import questionsData from "../../assets/questions.json";
 
 const FrontendJunior = () => {
@@ -27,10 +27,8 @@ const FrontendJunior = () => {
         return;
       }
 
-      // Настройки fuzzy matching
       const fuse = new Fuse(q.answers, { includeScore: true, threshold: 0.3 });
 
-      // Проверяем ответ
       const result = fuse.search(userAnswer);
       if (result.length > 0) {
         const bestMatch = result[0];
