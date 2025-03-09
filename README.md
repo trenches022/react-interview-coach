@@ -4,7 +4,7 @@ A React.js web application designed to help developers practice technical interv
 
 The app features a dark-themed UI, smooth animations, and a structured question-answer system.
 
-![Interview App Screenshot](https://raw.githubusercontent.com/trenches022/react-interview-coach/main/interview-coach3.png)
+![Interview App Screenshot](https://raw.githubusercontent.com/trenches022/react-interview-coach/main/assets/interview-coach3.png)
 
 #  Key Features
 
@@ -52,10 +52,10 @@ The app features a dark-themed UI, smooth animations, and a structured question-
 
 # 🎨 UI Preview
 
-![Interview App Screenshot](https://raw.githubusercontent.com/trenches022/react-interview-coach/main/interview-coach3.png)
-![Interview App Screenshot](https://raw.githubusercontent.com/trenches022/react-interview-coach/main/interview-coach2.png)
-![Interview App Screenshot](https://raw.githubusercontent.com/trenches022/react-interview-coach/main/interview-coach1.png)
-![Interview App Screenshot](https://raw.githubusercontent.com/trenches022/react-interview-coach/main/interview-coach.png)
+![Interview App Screenshot](https://raw.githubusercontent.com/trenches022/react-interview-coach/main/assets/interview-coach3.png)
+![Interview App Screenshot](https://raw.githubusercontent.com/trenches022/react-interview-coach/main/assets/interview-coach2.png)
+![Interview App Screenshot](https://raw.githubusercontent.com/trenches022/react-interview-coach/main/assets/interview-coach1.png)
+![Interview App Screenshot](https://raw.githubusercontent.com/trenches022/react-interview-coach/main/assets/interview-coach.png)
 
 # Future Plans
 
